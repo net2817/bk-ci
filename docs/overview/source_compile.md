@@ -12,6 +12,13 @@ nodejs版本 8.0.0及以上
   依次进入到devops-nav、devops-pipeline、devops-codelib、devops-environment、devops-atomstore、devops-ticket目录，在每个目录下均
 
 ```
+可以按下面的顺序在 src\frontend 下面执行
+
+npm install -g yarn
+yarn install
+yarn start
+yarn public -s nav // 这个参数是模块名，还可以是pipeline，ticket等
+
 # 先执行
 npm install --user=root && npm rebuild node-sass
 # 再执行
